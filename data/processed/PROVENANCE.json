@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "rf3_protocol": {
+    "num_steps": 200,
+    "n_recycles": 10,
+    "diffusion_batch_size": 1
+  },
+  "panel_c_foxo1_residue_contacts.csv": {
+    "source_artifact": "validated FOXO1 residue-to-CRBN contact counts",
+    "source_sha256": "A2F5446EEC0A952A6A12A762392806E2313D1FF495D0BF38B0BCE140FD9BC811",
+    "shared_sha256": "A2F5446EEC0A952A6A12A762392806E2313D1FF495D0BF38B0BCE140FD9BC811",
+    "rows": 1310,
+    "transformation": "Exact copy of the validated counts table",
+    "contact_definition": "At least one chain-F to chain-B heavy-atom pair at 6.0 angstrom or less"
+  },
+  "panel_d_crbn_541_580_contacts.csv": {
+    "source_artifact": "validated full-range CRBN residue contact counts for five FOXO1 tiles",
+    "source_sha256": "251AD546EFA6DBF0C452DD5478EAC4419D78750F082582E11E62E484C6C047AA",
+    "shared_sha256": "717AF81BD98297EF8787B4AF90C0D0E55F0C86ACFD25C442B33991CD7DE3EB7B",
+    "rows": 397,
+    "transformation": "Filtered without recalculation to source_tile tile_0541_0580",
+    "contact_definition": "At least one chain-F to chain-B heavy-atom pair at 6.0 angstrom or less"
+  }
+}

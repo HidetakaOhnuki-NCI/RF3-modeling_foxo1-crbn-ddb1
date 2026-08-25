@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "software": {
+    "name": "RosettaFold3",
+    "abbreviation": "RF3",
+    "checkpoint": "rf3_foundry_01_24_latest_remapped.ckpt"
+  },
+  "inference": {
+    "num_steps": 200,
+    "n_recycles": 10,
+    "diffusion_batch_size": 1
+  },
+  "reference_structure": {
+    "pdb_id": "6XK9",
+    "chains": {
+      "A": "DDB1",
+      "B": "CRBN",
+      "F": "substrate_or_peptide",
+      "L": "CC-90009",
+      "M": "Zn"
+    },
+    "observed_residues": {
+      "DDB1_chain_A": "2-1140",
+      "CRBN_chain_B": "46-442"
+    }
+  },
+  "conditioning": {
+    "cc90009_absent": ["M", "F"],
+    "cc90009_present": ["M", "L", "F"],
+    "option": "ground_truth_conformer_selection"
+  },
+  "distance_cutoffs_angstrom": {
+    "panel_a_display_contact_max": 3.6,
+    "panel_b_interface_strictly_less_than": 4.0,
+    "panels_c_d_contact_max": 6.0,
+    "hard_clash_strictly_less_than": 1.5
+  },
+  "replicates": {
+    "gspt1_models_per_arm": 50,
+    "foxo1_models_per_tile_sequence_class_condition": 100
+  },
+  "interpretation": "Contact frequency measures conditioned structural sampling and is not binding affinity, occupancy, free energy, ubiquitination, or degradation."
+}
