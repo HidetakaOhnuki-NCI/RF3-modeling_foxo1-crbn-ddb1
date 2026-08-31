@@ -1,12 +1,13 @@
 # FOXO1-CRBN RosettaFold3 reproducibility package
 
-We used RosettFold3 (Corley et al. DOI: BioRxiv https://doi.org/10.1101/2025.08.14.670328) 
-to explore an induced interaction between a protein and the Cereblon-DDB1 complex, an adaptor
-for the Culin4 E3 ubiquitin ligase complex, by a drug, CC-90009. This repository contains the code used for analyses
-in our manuscript, entitled "Selected next-generation CELMoDs induce cereblon-dependent depletion 
-of FOXO1 and block tumor and retinal angiogenesis." It records the model-generation conditions,
-downstream analyses, statistical procedures, and figure-generation steps used in the study.
-RosettaFold3 inference was performed on the NIH Biowulf high-performance computing system using
+We used RosettFold3 (Corley et al. DOI: bioRxiv https://doi.org/10.1101/2025.08.14.670328) 
+to explore a protein, which might interact with the Cereblon-DDB1 complex, an adaptor
+for the Culin 4 E3 ubiquitin ligase complex in the presence of a drug, CC-90009. This repository 
+contains the code used for analyses in our manuscript, entitled "Selected next-generation CELMoDs 
+induce cereblon-dependent depletion of FOXO1 and block tumor and retinal angiogenesis." It records 
+the model-generation conditions, downstream analyses, statistical procedures, and figure-generation 
+steps used in the study.
+     RosettaFold3 inference was performed on the NIH Biowulf high-performance computing system using
 the site-managed "RoseTTAFold/3" module ("rc-foundry" 0.1.9). 
 
 ## Scope
