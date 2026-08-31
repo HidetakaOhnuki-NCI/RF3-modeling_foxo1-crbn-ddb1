@@ -1,9 +1,8 @@
 # FOXO1-CRBN RosettaFold3 reproducibility package
 
 We used RosettFold3 (Corley et al. DOI: bioRxiv https://doi.org/10.1101/2025.08.14.670328) 
-to explore a candidate protein, which might interact with the Cereblon-DDB1 complex, an adaptor
-for the Culin 4 E3 ubiquitin ligase complex. The focus of the modeling was to evaluate a candidate 
-protein that might be affected by a drug, CC-90009. 
+to explore whether a candidate protein might interact with Cereblon, an adaptor
+for the Culin 4 E3 ubiquitin ligase complex, in the absence or presence of a drug, CC-90009. 
 
 This repository contains the code used for analyses in our manuscript, entitled "Selected next-generation CELMoDs 
 induce cereblon-dependent depletion of FOXO1 and block tumor and retinal angiogenesis." It records 
@@ -31,12 +30,12 @@ comparison arm.
 
 ```text
 analysis/          Reusable validation, statistics, and plotting functions
-chimerax/          Panel A visualization commands
+chimerax/          Figure S5A visualization commands
 config/            Machine-readable RF3 protocol
 data/manifests/    Raw-model manifest schema
 data/processed/    Compact figure-ready tables and provenance
 docs/              Methods, workflow, data dictionary, and reproduction guide
-figures/           Regenerated Panel C and Panel D PNG files
+figures/           Regenerated Figure S5C and Figure S5D PNG files
 scripts/           Command-line entry points
 tests/             Automated behavior and release-safety checks
 ```
