@@ -1,4 +1,4 @@
-# Figure Panel A: GSPT1-CC-90009-CRBN interface.
+# Figure S5A: GSPT1-CC-90009-CRBN interface.
 # Replace MODEL_PATH and OUTPUT_PATH before running this command file.
 
 open "MODEL_PATH"
