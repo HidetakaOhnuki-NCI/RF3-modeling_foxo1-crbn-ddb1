@@ -1,7 +1,7 @@
 # FOXO1-CRBN RosettaFold3 reproducibility package
 
 We used RosettFold3 (Corley et al. DOI: bioRxiv https://doi.org/10.1101/2025.08.14.670328) 
-to explore whether a candidate protein, which might interact with the Cereblon-DDB1 complex, an adaptor
+to explore a candidate protein, which might interact with the Cereblon-DDB1 complex, an adaptor
 for the Culin 4 E3 ubiquitin ligase complex. The focus of the modeling was to evaluate a candidate 
 protein that might be affected by a drug, CC-90009. 
 
