@@ -74,10 +74,10 @@ python scripts/validate_release.py
 
 | Panel | Analysis unit | Contact or similarity endpoint | Entry point |
 |---|---|---|---|
-| A | Representative GSPT1-CC-90009-CRBN model | Displayed GSPT1-CRBN heavy-atom contacts at 3.6 A or less | `chimerax/panel_a_interface.cxc` |
-| B | One GSPT1 model | Jaccard similarity based on CRBN-GSPT1 contacts below 4.0 A | `scripts/make_panel_b.py` |
-| C | One model and one FOXO1 residue | FOXO1-CRBN contact at 6.0 A or less | `scripts/make_panel_c.py` |
-| D | One model and one CRBN residue | FOXO1 541-580-CRBN contact at 6.0 A or less | `scripts/make_panel_d.py` |
+| Figure S5A | Representative GSPT1-CC-90009-CRBN model | Displayed GSPT1-CRBN heavy-atom contacts at 3.6 A or less | `chimerax/panel_a_interface.cxc` |
+| Figure S5B | One GSPT1 model | Jaccard similarity based on CRBN-GSPT1 contacts below 4.0 A | `scripts/make_panel_b.py` |
+| Figure S5C | One model and one FOXO1 residue | FOXO1-CRBN contact at 6.0 A or less | `scripts/make_panel_c.py` |
+| Figure S5D | One model and one CRBN residue | FOXO1 541-580-CRBN contact at 6.0 A or less | `scripts/make_panel_d.py` |
 
 The thresholds serve different purposes and are not interchangeable.
 
