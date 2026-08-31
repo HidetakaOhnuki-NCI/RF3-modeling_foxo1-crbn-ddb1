@@ -110,5 +110,10 @@ weights and the Foundry source distribution are not included.
 
 ## License
 
-No software license has been selected. The authors should add an explicit
-license before public release if reuse beyond inspection is intended.
+## License
+
+Unless otherwise noted, the original code and documentation in this repository were prepared by employees of the U.S. Government as part of their official duties. Under 17 U.S.C. § 105, such works are not subject to copyright protection in the United States.
+
+This repository does not redistribute the RosettaFold3/Foundry source code or model weights. RosettaFold3, Foundry, and other third-party software remain subject to their respective licenses and terms of use. Foundry is distributed under the [BSD 3-Clause License](https://github.com/RosettaCommons/foundry/blob/production/LICENSE.md).
+
+Third-party materials, if any, remain subject to the copyright and license terms identified with those materials.
