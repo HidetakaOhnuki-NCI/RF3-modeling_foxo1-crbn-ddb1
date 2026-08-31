@@ -1,7 +1,7 @@
 # FOXO1-CRBN RosettaFold3 reproducibility package
 
 We used RosettFold3 (Corley et al. DOI: bioRxiv https://doi.org/10.1101/2025.08.14.670328) 
-to explore whether a candidate protein might interact with Cereblon, an adaptor
+to explore whether a candidate protein might interact with Cereblon, a substrate receptor
 for the Cullin 4 E3 ubiquitin ligase complex, in the absence or presence of a drug, CC-90009. 
 
 This repository contains the code used for analyses in our manuscript, entitled "Selected next-generation CELMoDs 
@@ -10,7 +10,7 @@ the model-generation conditions, downstream analyses, statistical procedures, an
 steps used in the study.
 
 RosettaFold3 inference was performed on the NIH Biowulf high-performance computing system using
-the site-managed "RoseTTAFold/3" module ("rc-foundry" 0.1.9). 
+the site-managed "RosettaFold/3" module ("rc-foundry" 0.1.9). 
 
 ## Scope
 
@@ -60,7 +60,7 @@ python scripts/make_panel_d.py
 Generate Panel B from a protocol-matched input table:
 
 ```bash
-python scripts/make_panel_b.py --input data/processed/panel_b_gspt1_matched.csv
+python scripts/make_panel_b.py --input data/processed/***.csv
 ```
 
 Run the complete verification:
