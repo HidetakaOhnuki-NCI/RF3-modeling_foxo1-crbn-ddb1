@@ -19,12 +19,12 @@ The declared release protocol uses 200 diffusion steps, 10 recycles, a
 diffusion batch size of 1, and one random seed per replicate model for every
 comparison arm.
 
-- Panel A: a ChimeraX command file is provided. The representative structure
+- Figure S5A: a ChimeraX command file is provided. The representative structure
   model is not redistributed in this GitHub package.
-- Panel B: the executable analysis and input schema are provided for the four
+- Figure S5B: the executable analysis and input schema are provided for the four
   GSPT1 comparison arms.
-- Panel C: the validated 1,310-row FOXO1 residue-contact table is included.
-- Panel D: the validated 397-row CRBN residue-contact table for FOXO1 541-580
+- Figure S5C: the validated 1,310-row FOXO1 residue-contact table is included.
+- Figure S5D: the validated 397-row CRBN residue-contact table for FOXO1 541-580
   with CC-90009 is included.
 
 ## Repository map
